@@ -27,9 +27,10 @@ git clone https://github.com/Seoul02csstudy/HTTP_Guide.git .
 에러코드
 -> please commit your changes or stash them before you merge
 해결방법
-1. git stash 입력
+1. git stash
 2. git pull
-3. 겹친부분은 표시가 납니다. 해당 부분을 하나로 합치거나 수정해주세요.
-4. add - commit - push
+3. git stash pop
+4. 겹친부분은 표시가 납니다. 해당 부분을 하나로 합치거나 수정해주세요.
+5. add - commit - push
 """
 ```
